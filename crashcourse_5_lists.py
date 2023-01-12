@@ -26,3 +26,6 @@ transport_list = ["starbug", "red dwarf", "cat fleet"]
 print("I would like to command a feral " + transport_list[2] + "someday.")
 # i shall not print other statements as the exercise is the same as previous one
 
+# f string tutorial - from this point use f string it is easier and less prone to errors
+print(f"I would like to command a feral {transport_list[2]} someday.")
+
