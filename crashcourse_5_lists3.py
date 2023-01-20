@@ -36,5 +36,33 @@ print(" and this is an alphabetically sorted list\n")
 print(places)
 print("And this is unsorted list again.\n")
 
-print(sorted(places))
-print("this is revere alphabetical order.\n")
+print(sorted(places, reverse = True))
+print("this is reverse alphabetical order.\n")
+
+print(places)
+print("And this is unsorted list again.\n")
+
+places.reverse()
+print(places)
+print("reverse method changes list order permanently")
+places.reverse()
+
+print(places)
+print("apply once more the reverse method in order to sort the list back again")
+
+print(len(places))
+
+places.sort()
+print(places)
+print("this is permanently sorted by sort method")
+
+places.sort(reverse=True)
+print(places)
+
+guests = ["karel", "martina", "kuba", "bára", "katka", "martin"]
+print(f" initially, i had {str(len(guests))} guests invited for my birthday")
+
+print(f" initially, i had {len(guests)} guests invited for my birthday")
+
+# 3.10 omited due to redundancy
+
